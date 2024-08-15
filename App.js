@@ -4,7 +4,7 @@ import {
   View,StyleSheet,
 } from 'react-native';
 import Header from './Header';
-
+import Body from './Body';
 
 
 const App=()=>
