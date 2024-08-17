@@ -12,25 +12,28 @@ const App=()=>
  
   return (
 <View>
-<Header></Header>
+<Header />
   <Text style={{fontSize:30,marginLeft:60}}>React native App! </Text>
-<Text style={styles.linee}>let's start it . </Text>
+<Text style={[styles.linee,styles.heading]}>let's start it . </Text>
+<Body style={[styles.heading,{color:'green'}]}/>
 </View>
   )  
 };
 
 const styles=StyleSheet.create({
   linee:{
-backgroundColor:'green',
+backgroundColor:'yellow',
 borderRadius:15,
-
+paddingLeft:15,
 borderColor:'red',
 borderWidth:3,
 height:50,
 fontSize:30,
-
-  }}
-)
+},
+  heading:{
+fontWeight:'bold',
+}
+})
 
 
 export default App;
