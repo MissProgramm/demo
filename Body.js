@@ -1,17 +1,17 @@
-import { Text,View } from "react-native";
+import { Text,View,StyleSheet } from "react-native";
 
 
 
-const Body =()=>{
+const Body =({style})=>{
 
 return(
 
-<view>
-    <Text>Main part of your app:so keep in mind  </Text>
-</view>
+<View>
+    <Text style={style}>Main part of your app:so keep in mind  </Text>
+</View>
 
 
-)
+) 
 
 
 };
