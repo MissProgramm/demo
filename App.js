@@ -7,7 +7,7 @@ import Header from './Header';
 import Body from './Body';
 import Propss from './Propss';
 import Student from './Student';
-
+import Statee from './Statee';
 
 const App=()=>
 {
