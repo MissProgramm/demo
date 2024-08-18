@@ -11,11 +11,14 @@ setdata(count+1);
 }
 
 return(
+    <View>
+<Text> {data}</Text>
 
 <button onClick={handleClick}>
     <Text>u pressed me </Text>
 </button>
-)
+</View>
+) 
 };
 
 
