@@ -7,13 +7,19 @@ import Header from './Header';
 import Body from './Body';
 import Propss from './Propss';
 import Student from './Student';
-import Statee from './Statee';
+import St from './St';
+
+
+
 
 const App=()=>
 {
  
   return (
-<View>
+<View   style={{flex:1,backgroundColor:'red',flexDirection: 'row',}}   >
+  <View style={{flex:2,backgroundColor:'green'}} ></View>
+  <View style={{flex:1,backgroundColor:'white'}} ></View>
+  {/*
 <Header />
   <Text style={{fontSize:30,marginLeft:60}}>React native App! </Text>
 <Text style={[styles.linee,styles.heading]}>let's start it . </Text>
@@ -23,6 +29,9 @@ const App=()=>
 <Propss description='second data' ></Propss>
 <Student   name='ume' mail='ume@gmail.com'   />
 <Student   name='habiba' mail='habiba@gmail.com' />
+<St></St>
+  */}
+
 </View>
   )  
 };
