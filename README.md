@@ -6,5 +6,15 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 #  useState() 
  its for tracing the state of functional component ,its the counter for updation 
 #  View 
+ its component , like a div tag  , 
 
 #   Text 
+component , like paragraph tag , 
+
+# TextInput
+its for input from user , fro taking the input in textbox 
+
+
+
+
+

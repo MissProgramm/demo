@@ -2,6 +2,7 @@ import React from 'react';
 import {
   Text,
   View,StyleSheet,
+  TextInput,
 } from 'react-native';
 import Header from './Header';
 import Body from './Body';
@@ -14,9 +15,10 @@ import St from './St';
 
 const App=()=>
 {
- 
+ const data='welcome to '
   return (
-<View   style={{flex:1,backgroundColor:'red',flexDirection: 'row',}}   >
+
+/* <View   style={{flex:1,backgroundColor:'red',flexDirection: 'row',}}   >
   <View style={{flex:2,backgroundColor:'green'}} ></View>
   <View style={{flex:1,backgroundColor:'white'}} ></View>
   {/*
@@ -30,14 +32,25 @@ const App=()=>
 <Student   name='ume' mail='ume@gmail.com'   />
 <Student   name='habiba' mail='habiba@gmail.com' />
 <St></St>
-  */}
+</View>      
 
-</View>
+
+<View style={{flex:1,backgroundColor:'green',justifyContent:'center',alignItems:'center'}}>    
+<Text style={{backgroundColor:'pink'}}>{data}</Text>
+  <Text style={{color:'white'}}>App Development for <Text style={{color:'red' , fontWeight:'bold'}}>Ume Habiba</Text> YouTube channel.</Text>
+ </View>*/
+
+
+ <View>   
+   <TextInput placeholder="name " style={styles.box}></TextInput>  
+   </View>
+
+
   )  
 };
 
 const styles=StyleSheet.create({
-  linee:{
+   /* linee:{
 backgroundColor:'yellow',
 borderRadius:15,
 paddingLeft:15,
@@ -48,7 +61,21 @@ fontSize:30,
 },
   heading:{
 fontWeight:'bold',
+}*/   
+
+box:{
+  width:100,
+  borderRadius:6,
+  color:'red',
+  backgroundColor:'royalblue',
+  
+
+
+
 }
+
+
+
 })
 
 
