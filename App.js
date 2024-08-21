@@ -1,8 +1,8 @@
 import React from 'react';
 import {
   Text,
-  View,StyleSheet,
-  TextInput,
+  View,StyleSheet,ScrollView,
+  TextInput,Image
 } from 'react-native';
 import Header from './Header';
 import Body from './Body';
@@ -16,6 +16,7 @@ import St from './St';
 const App=()=>
 {
  const data='welcome to '
+ const img1=require('./assets/rn1.jpg')
   return (
 
 /* <View   style={{flex:1,backgroundColor:'red',flexDirection: 'row',}}   >
@@ -41,8 +42,18 @@ const App=()=>
  </View>*/
 
 
- <View>   
+ /*<View>   
    <TextInput placeholder="name " style={styles.box}></TextInput>  
+   </View>*/
+
+
+   <View>
+<Image source={ require('./assets/rn1.jpg')} style={styles.fimg} />
+<Image source={img1} />
+<Image source={require('./assets/rn3.jpg')}/>
+<Image source ={require('./assets/rn1.jpg')} />
+<Image source={require('./assets/rn3.jpg')}/>
+<Image source={img1}/>
    </View>
 
 
@@ -68,12 +79,15 @@ box:{
   borderRadius:6,
   color:'red',
   backgroundColor:'royalblue',
-  
+},
 
+fimg:{
+width:200,
+height:100,
+resizeMode:'contain',
 
 
 }
-
 
 
 })

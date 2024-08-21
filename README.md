@@ -14,7 +14,12 @@ component , like paragraph tag ,
 # TextInput
 its for input from user , fro taking the input in textbox 
 
+#  Image
+by saving picture => require function stores the path of pic
+by copy link => paste the link of uri
 
+# ScrollView 
+for scrolling the images 
 
 
 
