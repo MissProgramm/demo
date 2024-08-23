@@ -10,17 +10,17 @@ import Body from './Body';
 import Propss from './Propss';
 import Student from './Student';
 import St from './St';
-
+import Calculator from './Calculator';
 
 
 
 const App=()=>
 {
- const data='welcome to '
- const img1=require('./assets/rn2.png')
- const demo=(x)=>{
-console.log('bye bie',x)
- }
+//  const data='welcome to '
+//  const img1=require('./assets/rn2.png')
+//  const demo=(x)=>{
+// console.log('bye bie',x)
+//  }
   return (
 
 /* <View   style={{flex:1,backgroundColor:'red',flexDirection: 'row',}}   >
@@ -64,7 +64,7 @@ console.log('bye bie',x)
   }}
   style={styles.fimg}
 />
-   </ScrollView>*/
+   </ScrollView>
 <View   style={{flex:1}}  >   
    <TouchableOpacity onPress={()=>{console.log("hello!")}} style={styles.btn}>
 <Text style={styles.txt} >
@@ -78,7 +78,11 @@ console.log('bye bie',x)
   Click it !
 </Text>
    </TouchableOpacity>
-   </View>
+   </View>*/
+
+<Calculator></Calculator>
+
+
   )  ;
 };
 
