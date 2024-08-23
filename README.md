@@ -7,8 +7,9 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 #  useState() 
  its for tracing the state of functional component ,its the counter for updation 
  by using this , components are going to be re-render 
- outside components are not allowed to access state .
- 
+ outside components are not allowed to access state .state's data cannot be share to outside 
+ variable can't be changed after declaration but state can be change after re-render.
+
 #  View 
  its component , like a div tag  , 
 
