@@ -21,5 +21,10 @@ by copy link => paste the link of uri
 # ScrollView 
 for scrolling the images 
 
+# TouchableOpacity()
+not only make button, its also making other things like images clickable 
+  onPress() its attribute in touchableopacity() where define the function;firstly u can write fucntion here ;secondly u can just call function by its name here ; thirdly value pass by parameters through fucntion then i have to define other function which call the real fucntion and then pass value 
+
+
 
 
