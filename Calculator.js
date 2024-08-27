@@ -8,7 +8,7 @@ const [display,setDisplay]=useState("")
   return (
     <View >
       <Text>programmer's Calculator</Text>
-      <TextInput  placeholder='text' style={styles.txt}></TextInput>
+      <TextInput value={display} placeholder='text' style={styles.txt}></TextInput>
 
 
 <View style={{flexDirection:'row',justifyContent:'space-around'}}>
@@ -39,6 +39,23 @@ const [display,setDisplay]=useState("")
   <TouchableOpacity style={styles.btn} onPress={()=>{setDisplay(display+"+")}}><Text style={styles.btntxt}>+</Text></TouchableOpacity>
 
 </View>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
