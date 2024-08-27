@@ -5,7 +5,9 @@ const Calculator = () => {
   return (
     <View style={{flex:1}}>
       <Text>programmer's Calculator</Text>
-      <TextInput  placeholder='text here' style={styles.txt}></TextInput>
+      <TextInput  placeholder='text' style={styles.txt}></TextInput>
+
+
 <View style={{flexDirection:'row',justifyContent:'space-around'}}>
   <TouchableOpacity style={styles.btn}><Text style={styles.btntxt}>c</Text></TouchableOpacity>
   <TouchableOpacity style={styles.btn}><Text style={styles.btntxt}>0</Text></TouchableOpacity>
@@ -37,8 +39,6 @@ const Calculator = () => {
 
 <View style={{flexDirection:'row' }}>
 <TouchableOpacity style={[styles.btn , {borderRadius:23}]}><Text style={styles.btntxt}>=</Text></TouchableOpacity>
-
-
 </View>
 
 
@@ -55,6 +55,11 @@ txt:{
   borderWidth:4,
   borderRadius:4,
   margin:5,
+  height:150,
+  backgroundColor:'#eee',
+  textAlign:'right',
+  fontSize:45,
+  padding:10,
 },
 
 
