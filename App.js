@@ -3,7 +3,8 @@ import {
   Text,
   View,StyleSheet,ScrollView,
   TextInput,Image,
-  TouchableOpacity
+  TouchableOpacity,
+  ActivityIndicator
 } from 'react-native';
 import Header from './Header';
 import Body from './Body';
@@ -78,10 +79,10 @@ const App=()=>
   Click it !
 </Text>
    </TouchableOpacity>
-   </View>*/
+   </View>
 
-<Calculator></Calculator>
-
+<Calculator></Calculator>*/
+<ActivityIndicator    size={'large'}   color={'red'}      />
 
   )  ;
 };
