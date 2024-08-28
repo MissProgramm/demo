@@ -6,8 +6,8 @@ const Calculator = () => {
 const [display,setDisplay]=useState("")
 
   return (
-    <View >
-      <Text>programmer's Calculator</Text>
+    <View style={styles.wrapper}>
+      <Text style={styles.heading}>MissProgrammer's Calculator</Text>
       <TextInput value={display} placeholder='text' style={styles.txt}></TextInput>
 
 
@@ -41,8 +41,8 @@ const [display,setDisplay]=useState("")
 </View>
 
 <View style={{flexDirection:'row' }}>
-<TouchableOpacity style={[styles.btn , {borderRadius:23}]}> 
-   <Text style={styles.btntxt}>=</Text>
+<TouchableOpacity  style={[styles.btn , {borderRadius:23,height:75,backgroundColor:'red',width:'96%'}]}> 
+   <Text style={[styles.btntxt,{color:'white'}]}>=</Text>
    </TouchableOpacity>
 </View>
     </View>
@@ -52,6 +52,18 @@ const [display,setDisplay]=useState("")
 export default Calculator
 
 const styles = StyleSheet.create({
+wrapper:{
+flex:1,
+justifyContent:'center',
+alignItems:'center',
+},
+heading:{
+color:'red',
+fontSize:28,
+alignSelf:'center',
+marginBottom:20,
+
+},
 
 txt:{
   borderColor :'blue', 
@@ -63,25 +75,30 @@ txt:{
   textAlign:'right',
   fontSize:45,
   padding:10,
+  width:'94%',
 },
 
 
 btn:{
-  flex:1,
+  
   margin:9,
   padding:2,
   borderWidth:1,
   borderColor:'red',
-  borderRadius:2,
-
+  borderRadius:5,
+  backgroundColor:'#eee',
+  height:80,
+  width:80,
+  justifyContent:'center',
+  alignItems:'center',
+  
 },
 
 btntxt:{
   color:'red',
-  alignSelf:'center',
-  margin:4,
+
   fontWeight:'bold',
-  
+  fontSize:25,
 },
 
 
