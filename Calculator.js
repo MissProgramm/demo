@@ -14,7 +14,7 @@ setDisplay(result.toString())
 
   return (
     <View style={styles.wrapper}>
-      <StatusBar  hidden/>
+      <StatusBar  backgroundColor={'red'}  barStyle={'light-content'}   />
       <Text style={styles.heading}>MissProgrammer's Calculator</Text>
       <TextInput value={display} placeholder='text' style={styles.txt}></TextInput>
 
