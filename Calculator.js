@@ -12,10 +12,10 @@ const [display,setDisplay]=useState("")
 
 
 <View style={{flexDirection:'row',justifyContent:'space-around'}}>
-  <TouchableOpacity style={styles.btn}  onPress={()=>{setDisplay("")}}>  <Text style={styles.btntxt} >c</Text></TouchableOpacity>
-  <TouchableOpacity style={styles.btn}  onPress={()=>{setDisplay(display+"0")}}>   <Text style={styles.btntxt}>0</Text></TouchableOpacity>
-  <TouchableOpacity style={styles.btn}    onPress={()=>{setDisplay(display+".")}}>  <Text style={styles.btntxt}>.</Text></TouchableOpacity>
-  <TouchableOpacity style={styles.btn}    onPress={()=>{setDisplay(display+"/")}}> <Text style={styles.btntxt}>/</Text></TouchableOpacity>
+  <TouchableOpacity style={styles.btn}  onPress={()=>{setDisplay("")}}><Text style={styles.btntxt}>c</Text></TouchableOpacity>
+  <TouchableOpacity style={styles.btn}  onPress={()=>{setDisplay(display+"0")}}><Text style={styles.btntxt}>0</Text></TouchableOpacity>
+  <TouchableOpacity style={styles.btn}  onPress={()=>{setDisplay(display+".")}}><Text style={styles.btntxt}>.</Text></TouchableOpacity>
+  <TouchableOpacity style={styles.btn}  onPress={()=>{setDisplay(display+"/")}}><Text style={styles.btntxt}>/</Text></TouchableOpacity>
 
 </View>
 <View style={{flexDirection:'row',justifyContent:'space-around'}}>
@@ -40,30 +40,11 @@ const [display,setDisplay]=useState("")
 
 </View>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <View style={{flexDirection:'row' }}>
-<TouchableOpacity style={[styles.btn , {borderRadius:23}]} ><Text style={styles.btntxt}>=</Text></TouchableOpacity>
+<TouchableOpacity style={[styles.btn , {borderRadius:23}]}> 
+   <Text style={styles.btntxt}>=</Text>
+   </TouchableOpacity>
 </View>
-
-
     </View>
   )
 }
