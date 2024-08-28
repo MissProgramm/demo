@@ -1,12 +1,20 @@
-import { StyleSheet, Text, TextInput,TouchableOpacity, View } from 'react-native'
+import { StatusBar, StyleSheet, Text, TextInput,TouchableOpacity, View } from 'react-native'
 import React, { useState } from 'react'
 
 const Calculator = () => {
 
 const [display,setDisplay]=useState("")
+const calculateResult=()=>{
+const result=eval(display)
+console.log(result)
+setDisplay(result.toString())
+}
+
+
 
   return (
     <View style={styles.wrapper}>
+      <StatusBar  hidden/>
       <Text style={styles.heading}>MissProgrammer's Calculator</Text>
       <TextInput value={display} placeholder='text' style={styles.txt}></TextInput>
 
@@ -41,7 +49,7 @@ const [display,setDisplay]=useState("")
 </View>
 
 <View style={{flexDirection:'row' }}>
-<TouchableOpacity  style={[styles.btn , {borderRadius:23,height:75,backgroundColor:'red',width:'96%'}]}> 
+<TouchableOpacity onPress={calculateResult} style={[styles.btn , {borderRadius:23,height:75,backgroundColor:'red',width:'96%'}]}> 
    <Text style={[styles.btntxt,{color:'white'}]}>=</Text>
    </TouchableOpacity>
 </View>
