@@ -81,8 +81,14 @@ const App=()=>
    </TouchableOpacity>
    </View>
 
-<Calculator></Calculator>*/
-<ActivityIndicator    size={'large'}   color={'red'}      />
+<Calculator></Calculator>
+
+<ActivityIndicator    size={'large'}   color={'red'}      />*/
+
+
+
+
+
 
   )  ;
 };
