@@ -107,7 +107,7 @@ const [modalvisible,setmodalvisible]=useState(false)
   <Button title='show modal'  onPress={()=>{setmodalvisible(true)}}> </Button>
 
 
-<Modal visible={modalvisible} transparent={true}>
+<Modal animationType='slide' visible={modalvisible} transparent={true}>
 <View style={{flex:1,justifyContent:'center',alignItems:'center',backgroundColor:'rgba(0,0,0,0.5)'}}>
   <View >
     <Text>
