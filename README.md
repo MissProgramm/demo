@@ -39,7 +39,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
   its a loader that can be render in a condition when data is not found then it can be shows like a small circle 
 
 # Modal
-
+it hides overall screen , for pop-up button and restrict user to view this and after view real content 
 
 
 
