@@ -38,7 +38,8 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 # ActivityIndicator 
   its a loader that can be render in a condition when data is not found then it can be shows like a small circle 
 
-# 
+# Modal
+
 
 
 

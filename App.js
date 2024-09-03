@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Text,
   View,StyleSheet,ScrollView,
   TextInput,Image,
   TouchableOpacity,
-  ActivityIndicator
+  ActivityIndicator,
+  Modal,Button
 } from 'react-native';
 import Header from './Header';
 import Body from './Body';
@@ -22,6 +23,9 @@ const App=()=>
 //  const demo=(x)=>{
 // console.log('bye bie',x)
 //  }
+
+const [modalvisible,setmodalvisible]=useState(false)
+
   return (
 
 /* <View   style={{flex:1,backgroundColor:'red',flexDirection: 'row',}}   >
@@ -84,6 +88,39 @@ const App=()=>
 <Calculator></Calculator>
 
 <ActivityIndicator    size={'large'}   color={'red'}      />*/
+
+<View style={{flex:1}}>
+  <Text>online tutoriall onlineeeeeee i know its online </Text>
+  <Text>online tutoriall onlineeeeeee i know its online </Text>
+  <Text>online tutoriall onlineeeeeee i know its online </Text>
+  <Text>online tutoriall onlineeeeeee i know its online </Text>
+  <Text>online tutoriall onlineeeeeee i know its online </Text>
+  <Text>online tutoriall onlineeeeeee i know its online </Text>
+  <Text>online tutoriall onlineeeeeee i know its online </Text>
+  <Text>online tutoriall onlineeeeeee i know its online </Text>
+  <Text>online tutoriall onlineeeeeee i know its online </Text>
+  <Text>online tutoriall onlineeeeeee i know its online </Text>
+  <Text>online tutoriall onlineeeeeee i know its online </Text>
+  <Text>online tutoriall onlineeeeeee i know its online </Text>
+  <Text>online tutoriall onlineeeeeee i know its online </Text>
+  <Text>online tutoriall onlineeeeeee i know its online </Text>
+  <Button title='show modal'  onPress={()=>{setmodalvisible(true)}}> </Button>
+
+
+<Modal visible={modalvisible} transparent={true}>
+<View style={{flex:1,justifyContent:'center',alignItems:'center',backgroundColor:'rgba(0,0,0,0.5)'}}>
+  <View >
+    <Text>
+     i am learning react native CLI.
+    </Text>
+    <Button title=' close modal' onPress={()=>{setmodalvisible(false)}}></Button>
+  </View>
+</View>
+
+</Modal>
+
+
+</View>
 
 
 
