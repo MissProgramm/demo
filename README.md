@@ -42,6 +42,9 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 it hides overall screen , for pop-up button and restrict user to view this and after view real content 
 
 # FlatList()
+for every object , not write every time properties use flatlist and then its data and render data like in oop we create class and its object 
+
+# Navigation 
 
 
 
