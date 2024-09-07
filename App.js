@@ -154,7 +154,7 @@ const Stack=createNativeStackNavigator();
 <NavigationContainer>
 <Stack.Navigator>
 <Stack.Screen name="Home" component={Home} />
-<Stack.Screen name="Notification, here" component={Notification}/>
+<Stack.Screen name="Notification" component={Notification}/>
 </Stack.Navigator>
 </NavigationContainer>
 
@@ -208,7 +208,7 @@ txt:{
 fontWeight:'bold',
 
 },
-img:{
+img:{ 
 width:200,
 height:200,
 resizeMode:'contain',
