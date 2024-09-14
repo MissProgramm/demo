@@ -39,14 +39,16 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
   its a loader that can be render in a condition when data is not found then it can be shows like a small circle 
 
 # Modal
-it hides overall screen , for pop-up button and restrict user to view this and after view real content 
+  it hides overall screen , for pop-up button and restrict user to view this and after view real content 
 
 # FlatList()
-for every object , not write every time properties use flatlist and then its data and render data like in oop we create class and its object 
+  for every object , not write every time properties use flatlist and then its data and render data like in oop we create class and its object 
 
 # Navigation 
-
-
+  firstly wrap all screen with navigator.container 
+secondly use stack.navigator its applied all the screen you can say its global
+thirdly for every screen use stack.screeen, it can be multiple and customize every screen individual 
+ pass data from one screen to another screen through string or number , not objects 
 
 
 
