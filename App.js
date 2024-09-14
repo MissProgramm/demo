@@ -22,6 +22,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 // import Calculator from './Calculator';
 import Home from './screens/Home';
 import Notification from './screens/Notification';
+import Toptab from './Toptab';
 
 const App = () => {
   //  const data='welcome to '
@@ -172,7 +173,7 @@ const App = () => {
   }
   keyExtractor={item=>item.id}
 />
-</View>*/
+</View>
 
     <NavigationContainer>
       <Stack.Navigator
@@ -192,7 +193,8 @@ const App = () => {
           options={{headerBackVisible: false}}
         />
       </Stack.Navigator>
-    </NavigationContainer>
+    </NavigationContainer>*/
+    <Toptab />
   );
 };
 

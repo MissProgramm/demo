@@ -10,9 +10,7 @@ const Home = () => {
       <Text>This is home screen .</Text>
       <Button
         onPress={() => {
-          navigation.navigate('Notification', {
-            data: {notice: 'demo notice', msg: 'demo msg'},
-          });
+          navigation.navigate('Notification');
         }}
         title="Go to notification page "
       />
