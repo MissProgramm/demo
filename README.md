@@ -49,6 +49,6 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 secondly use stack.navigator its applied all the screen you can say its global
 thirdly for every screen use stack.screeen, it can be multiple and customize every screen individual 
  pass data from one screen to another screen through string or number , not objects 
-
+### Nested Navigation
 
 
