@@ -23,6 +23,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Home from './screens/Home';
 import Notification from './screens/Notification';
 import Toptab from './Toptab';
+import Bottomtab from './Bottomtab';
 
 const App = () => {
   //  const data='welcome to '
@@ -193,8 +194,9 @@ const App = () => {
           options={{headerBackVisible: false}}
         />
       </Stack.Navigator>
-    </NavigationContainer>*/
-    <Toptab />
+    </NavigationContainer>
+    <Toptab />*/
+    <Bottomtab />
   );
 };
 
